@@ -1,0 +1,372 @@
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.principal{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    height: 80px;
+    background-color: #2c9aff;
+}
+.fundo-infinito{
+    height: 80px;
+    background-color: #2c9aff;
+    width: 100%;
+    z-index: -2;
+    position: absolute;
+}
+.caixa-1{
+    width: 190px;
+    height: 80px;
+    float: left;
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background-image: url(../img/Editar.png);
+    transition: 100ms;
+
+}
+header{
+    margin-left: 20px;
+}
+.header > a{
+    color: white;
+    text-decoration: none;
+    transition: 100ms;
+}
+.caixa-1:hover{
+    background-image: url(../img/ativo.png);
+    color: rgb(0, 54, 63);
+    transition: 100ms;
+}
+.caixa-1-ativa{
+    background-image: url(../img/ativo.png);
+    color: rgb(0, 54, 63);
+    width: 190px;
+    height: 80px;
+    float: left;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+.imagem-jogo{
+    width: 100%;
+}
+.nome-jogo{
+    text-align: center;
+}
+.nome-flutuante{
+    color: #222;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+.conteudo-home{
+    width: 100%;
+}
+.home-texto{
+    width: 550px;
+    float: left;
+}
+.home-titulo{
+    color: #222;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.home-conteudo{
+    margin-top: 20px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home-imagem{
+    float: left;
+
+}
+.imagem-home{
+    width: 445px;
+    margin-top: 150px;
+}
+.clear{
+    clear: both;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: #222;
+    
+}
+.footer-infinito{
+    width: 100%;
+    height: 300px;
+    background-color: #222;
+    z-index: -2;
+    position: absolute;
+    margin-top: 100px;
+}
+.caixa-footer{
+    width: 248px;
+    height: 200px;
+    float: left;
+    margin-top: 57px;
+}
+.centralizar{
+    width: 180px;;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.titulo-ttexto-footer{
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+.conteudo-texto-footer{
+    font-size: 18px;
+    color: white;
+}
+.fundo-imagem{
+    position: absolute;
+    z-index: -1;
+}
+.personagem-1{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: -100px;
+
+}
+.personagem-2{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 285px;
+
+}
+.personagem-3{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    margin-top: 175px;
+    margin-left: 520px;
+
+}
+.personagem-4{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 750px;
+}
+.controle-personagens{
+    width: 998px;
+    z-index: 20;
+    height: 500px;
+
+}
+@media only screen and (min-device-width: 1700px) {
+    .controle-personagens{ 
+        padding-top: 150px;
+    }
+}
+.escolha{
+    text-align: center;
+    font-size: 30px;
+    color: #222;
+    font-weight: 700;
+    margin-top: 100px;
+}
+.escolha-pe{
+    margin-top: 100px;
+}
+@media only screen and (min-device-width: 1700px) {
+    .escolha{ 
+        margin-top: 150px;
+    }
+}
+@media only screen and (min-device-width: 1700px) {
+    .escolha-pe{ 
+        margin-top: 150px;
+    }
+}
+.nome-personagem{
+    color: #222;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.historia{
+    margin-top: 20px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.regras-titulo {
+    text-align: center;
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 200px;
+}
+.fundo-regras{
+    width: 100%;
+    height: 500px;
+    background-color: #1185d3;
+    margin-bottom: 100px;
+}
+.regras{
+    clear: both;
+    width: 100%;
+    height: 200px;
+    margin-top: 100px;
+}
+.regras-imagem{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 30px;
+    float: left;
+}
+.regras-titulo-2{
+    font-size: 30px;
+    float: left;
+    color: #222;
+    margin-left: 250px;
+    font-weight: 600;
+}
+.regra-texto{
+    float: left;
+    width: 700px;
+    height: 130px;
+    margin-left: 45px;
+    margin-top: 30px;
+}
+.arredondar{
+    border-radius: 30px;
+}
+.desenvolvedores-banner{
+    width: 100%;
+    height: 500px;
+    background-color: #00768b;
+}
+.conjunto-desenvolvedor{
+    width: 100%;
+    height: 450px;
+    margin-top: 80px;
+}
+.caixa-desenvolvedor{
+    width: 320px;
+    height: 100%;
+    border-radius: 30px;
+    float: left;
+    margin-left: 8px;
+}
+.nome-desenvolvedor{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin-top: -90px;
+    position: absolute;
+    margin-left: 95px;
+
+}
+.imagem-desenvolvedor{
+    z-index: -2;
+    
+}
+.imagem{
+    border-radius: 30px;
+}
+.contato-banner{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/contato.jpg);
+}
+.preferencia{
+    text-align: center;
+    font-size: 30px;
+    color: #222;
+    font-weight: 700;
+    margin-top: 50px;
+    
+}
+.contato-titulo{
+    text-align: center;
+    color: #222;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 185px;
+    background-color: white;
+    width: 700px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.todos-contatos{
+    width: 100%;
+    height: 200px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.caixa-contato{
+    height: 100%;
+    width: 300px;
+    float: left;
+    margin-left: 23px;
+}
+.caixa-titulo-contato{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #222;
+}
+.caixa-texto-contato{
+    font-size: 20px;
+    margin-top: 30px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.caixa-horarios{
+    width: 600px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.caixa-dias{
+    width: 160px;
+    float: left;
+    font-size: 20px;
+    margin-left: 25px;
+}
+.caixa-status{
+    width: 170px;
+    float: left;
+    font-size: 20px;
+}
+.dias-central{
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.titulo-dias{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #222;
+}
